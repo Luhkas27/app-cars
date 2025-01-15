@@ -1,8 +1,14 @@
+import Hero from "./components/landing-page/hero";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-background-primary">
-      <h1 className="text-4xl font-bold">Hello World</h1>
+    <div className="max-w-7xl mx-auto border">
+    <Hero/>
+
+    {/* 
+    <VideoExplanation/>
+    <Pricing/>
+    <FAQ/> */}
     </div>
   );
 }
